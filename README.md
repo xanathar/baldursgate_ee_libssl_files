@@ -1,6 +1,13 @@
 # libssl files for Beamdog Enhanced Edition Infinity Engine games
 
-The Enhanced Edition versions of Baldur's Gate, Baldur's Gate II, Planescape: Torment and Icewind Dale come with missing dependencies on Linux (I have no idea about Neverwinter Nights EE, but it might also be affected).
+The Enhanced Edition versions of the following games may fail to run on modern Linux distros because they come with missing dependencies on Linux:
+
+  - Baldur's Gate Enhanced Edition (BG:EE)
+  - Baldur's Gate II Enhanced Edition (BG2:EE)
+  - Planescape: Torment (PST:EE)
+  - Icewind Dale (IWD:EE)
+  
+Neverwinter Nights Enhanced Edition, seems to be unaffected.
 
 What happens if you try to run one of them on a decently modern distro is:
 
