@@ -17,10 +17,14 @@ Running Baldur's Gate II: Enhanced Edition
 ./BaldursGateII: error while loading shared libraries: libssl.so.1.0.0: cannot open shared object file: No such file or directory
 ```
 
-To resolve, clone this repo somewhere (or download the files in the `x86_64` directory manually one by one) then launch with:
+To resolve, clone this repo somewhere (or download the files in the `i386` or `x86_64` directory manually one by one) then launch with:
 
 ```bash
+# If using the 64bit version of the game:
 LD_LIBRARY_PATH='/the/path/to/the/cloned/repository/x86_64' ./start.sh
+
+# Otherwise, if using the 32bit version of the game:
+LD_LIBRARY_PATH='/the/path/to/the/cloned/repository/i386' ./start.sh
 ```
 
 # FAQ
@@ -31,14 +35,10 @@ Clone the repo somewhere or download the files manually, whatever you fancy.
 
 Right click the game in the interface, and press "Configure".
 
-Go to the "System Options" tab and create an entry named `LD_LIBRARY_PATH` with the path to the `x86_64` directory (or the files you downloaded).
+Go to the "System Options" tab and create an entry named `LD_LIBRARY_PATH` with the path to the `x86_64` directory (or the files you downloaded); by default Lutris installs the 64bit version of the game.
 
 ![lutris screenshot](https://raw.githubusercontent.com/xanathar/baldursgate_ee_libssl_files/main/docs/lutris-screenshot.png)
 
-## What are the files in the i386 directory for?
-
-Nothing. I didn't know which one of the two (between i386 and x86_64) was needed and copied both, then realized the i386 ones are useless for this purpose.
-This whole issue though is because those games rely on files that are not included in modern distros anymore (for good reasons) and it took some archaeology digging to find them... so I decided to include them anyway, just in case somebody finds them useful.
 
 ## What is the source of those file? Can we trust them?
 
