@@ -4,8 +4,8 @@ The Enhanced Edition versions of the following games may fail to run on modern L
 
   - Baldur's Gate Enhanced Edition (BG:EE)
   - Baldur's Gate II Enhanced Edition (BG2:EE)
-  - Planescape: Torment (PST:EE)
-  - Icewind Dale (IWD:EE)
+  - Planescape: Torment Enhanced Edition (PST:EE)
+  - Icewind Dale Enhanced Edition (IWD:EE)
   
 Neverwinter Nights Enhanced Edition, seems to be unaffected.
 
